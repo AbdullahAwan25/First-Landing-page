@@ -12,4 +12,5 @@
   display: flex;
   justify-content: end;
   gap: 40px;
-color: whitw;
+  color: white;
+}
