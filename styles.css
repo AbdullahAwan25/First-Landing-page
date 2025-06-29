@@ -1,0 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.first {
+  background-color: navy;
+  width: auto;
+  height: 50vh;
+}
+.ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+color: whitw;
