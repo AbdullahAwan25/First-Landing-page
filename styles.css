@@ -1,16 +1,67 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.first {
-  background-color: navy;
-  width: auto;
-  height: 50vh;
+.header-name {
+  color: black;
+  font-weight: 700;
 }
-.ul {
+
+header {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.about-title {
+  font-weight: 1000;
+  color: black;
+}
+.header-buttons {
   list-style: none;
   display: flex;
   justify-content: end;
   gap: 40px;
+  color: black;
+}
+
+.hero {
+  width: auto;
+  height: 50vh;
+  background: white;
+  padding: 30px 60px;
+  border: 1px solid black;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+.about-car {
+  color: black;
+}
+.hero-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.buy-now {
+  padding: 8px 25px;
+  border-radius: 10px;
+  margin-top: 8px;
+  background-color: black;
+  font-weight: 500;
   color: white;
+  transition: 150ms;
+  border: 1px solid white;
+}
+.buy-now:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
 }
