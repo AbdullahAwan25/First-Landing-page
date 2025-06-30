@@ -65,3 +65,28 @@ img {
   border: 1px solid black;
   border-radius: 10px;
 }
+
+/* hero done */
+
+/* cards section */
+
+.heading-features {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.car {
+  width: 150px;
+  border-radius: 10px;
+}
+.card p {
+  font-size: 12px;
+}
