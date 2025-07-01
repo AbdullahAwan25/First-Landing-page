@@ -25,6 +25,7 @@ header {
   justify-content: end;
   gap: 40px;
   color: black;
+  cursor: pointer;
 }
 
 .hero {
@@ -125,7 +126,7 @@ img {
   justify-content: center;
   align-items: center;
 
-  padding: 50px 200px;
+  padding: 100px 200px;
 }
 
 blockquote {
@@ -145,14 +146,25 @@ blockquote h5 {
 
 .cta {
   background-color: rgb(17, 17, 194);
-  padding: 20px 170px;
+  display: flex;
+  padding: 20px 70px;
   border-radius: 10px;
   color: white;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  transition: 150ms;
 }
+
+.cta:hover {
+  background-color: black;
+  color: white;
+}
+
 .signup-button {
   color: white;
   background-color: transparent;
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 5px 10px;
   border: 2px solid white;
   margin-top: 8px;
@@ -160,9 +172,9 @@ blockquote h5 {
   font-weight: 500;
 }
 .signup-button:hover {
-  color: black;
+  cursor: pointer;
   background-color: white;
-  border: 2px solid black;
+  color: black;
 }
 /* footer section */
 
@@ -178,4 +190,8 @@ footer {
 
 .footer-text {
   font-size: 12px;
+}
+
+button {
+  cursor: pointer;
 }
